@@ -2204,9 +2204,9 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Cyclone",
-                            "x": 0.08664021164021164,
-                            "y": 0.33641975308641975,
-                            "uniqueID": 922747,
+                            "x": 0.082010582010582,
+                            "y": 0.2993827160493827,
+                            "uniqueID": 483912,
                             "projectID": "499301071",
                             "ioValues": [
                                 {
@@ -2276,13 +2276,13 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.20171957671957674,
-                            "y": 0.38888888888888884,
+                            "x": 0.2195767195767196,
+                            "y": 0.38580246913580246,
                             "uniqueID": 142528,
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "source/225197/190029/579706/922747GitHubMolecule"
+                                    "ioValue": "source/225197/190029/579706/483912GitHubMolecule"
                                 },
                                 {
                                     "name": "xDist",
@@ -2324,81 +2324,10 @@
                             ]
                         },
                         {
-                            "atomType": "Assembly",
-                            "name": "Assembly",
-                            "x": 0.4801587301587301,
-                            "y": 0.49074074074074076,
-                            "uniqueID": 173876,
-                            "ioValues": [
-                                {
-                                    "name": "3D shape 1",
-                                    "ioValue": "source/225197/190029/579706/142528Move"
-                                },
-                                {
-                                    "name": "3D shape 3",
-                                    "ioValue": "source/225197/190029/579706/823188Move"
-                                },
-                                {
-                                    "name": "3D shape 5",
-                                    "ioValue": "source/225197/190029/579706/293382Move"
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Rotate",
-                            "name": "Rotate",
-                            "x": 0.3035714285714286,
-                            "y": 0.6820987654320988,
-                            "uniqueID": 933935,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": ""
-                                },
-                                {
-                                    "name": "x-axis degrees",
-                                    "ioValue": -15
-                                },
-                                {
-                                    "name": "y-axis degrees",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "z-axis degrees",
-                                    "ioValue": 0
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Move",
-                            "name": "Move",
-                            "x": 0.1752645502645503,
-                            "y": 0.7407407407407407,
-                            "uniqueID": 844843,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": "source/225197/190029/579706/609108GitHubMolecule"
-                                },
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": 97
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "GitHubMolecule",
                             "name": "Cyclone",
-                            "x": 0.09060846560846561,
-                            "y": 0.7777777777777777,
+                            "x": 0.07473544973544974,
+                            "y": 0.6481481481481481,
                             "uniqueID": 609108,
                             "projectID": "499301071",
                             "ioValues": [
@@ -2440,6 +2369,77 @@
                                 }
                             ],
                             "simplify": false
+                        },
+                        {
+                            "atomType": "Assembly",
+                            "name": "Assembly",
+                            "x": 0.4801587301587301,
+                            "y": 0.49074074074074076,
+                            "uniqueID": 173876,
+                            "ioValues": [
+                                {
+                                    "name": "3D shape 1",
+                                    "ioValue": "source/225197/190029/579706/142528Move"
+                                },
+                                {
+                                    "name": "3D shape 3",
+                                    "ioValue": "source/225197/190029/579706/823188Move"
+                                },
+                                {
+                                    "name": "3D shape 5",
+                                    "ioValue": "source/225197/190029/579706/293382Move"
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.3035714285714286,
+                            "y": 0.6820987654320988,
+                            "uniqueID": 933935,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "source/225197/190029/579706/844843Move"
+                                },
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": -15
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": 0
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.1752645502645503,
+                            "y": 0.7407407407407407,
+                            "uniqueID": 844843,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "source/225197/190029/579706/609108GitHubMolecule"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 97
+                                }
+                            ]
                         },
                         {
                             "atomType": "Move",
@@ -2555,7 +2555,7 @@
                             "ap1Name": "Geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
-                            "ap1ID": 922747,
+                            "ap1ID": 483912,
                             "ap2ID": 142528
                         },
                         {
@@ -2587,6 +2587,13 @@
                             "ap2ID": 173876
                         },
                         {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 609108,
+                            "ap2ID": 844843
+                        },
+                        {
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
@@ -2613,13 +2620,6 @@
                             "ap2Primary": true,
                             "ap1ID": 844843,
                             "ap2ID": 933935
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 609108,
-                            "ap2ID": 844843
                         },
                         {
                             "ap1Name": "geometry",
