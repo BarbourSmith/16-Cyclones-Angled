@@ -2954,21 +2954,6 @@
                     ]
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Section View",
-                    "x": 0.8921957671957672,
-                    "y": 0.16666666666666666,
-                    "uniqueID": 370068,
-                    "projectID": "516094200",
-                    "ioValues": [
-                        {
-                            "name": "Offset",
-                            "ioValue": 0
-                        }
-                    ],
-                    "simplify": false
-                },
-                {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
                     "x": 0.7076719576719577,
@@ -3219,13 +3204,6 @@
                     "ap2Primary": false,
                     "ap1ID": 593617,
                     "ap2ID": 298793
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape",
-                    "ap2Primary": false,
-                    "ap1ID": 593617,
-                    "ap2ID": 370068
                 },
                 {
                     "ap1Name": "geometry",
