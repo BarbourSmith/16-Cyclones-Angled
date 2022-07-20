@@ -249,8 +249,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "One Angled Cyclone Row",
-                    "x": 0.1832010582010582,
-                    "y": 0.49074074074074076,
+                    "x": 0.18452380952380953,
+                    "y": 0.4969135802469136,
                     "uniqueID": 579706,
                     "ioValues": [],
                     "topLevel": false,
@@ -301,7 +301,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 97
+                                    "ioValue": 95
                                 }
                             ]
                         },
@@ -373,7 +373,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -2
+                                    "ioValue": 0
                                 }
                             ]
                         },
@@ -542,7 +542,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 97
+                                    "ioValue": 95
                                 }
                             ]
                         },
@@ -592,7 +592,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": -2
+                                    "ioValue": 0
                                 }
                             ]
                         },
@@ -953,8 +953,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5238095238095238,
-                    "y": 0.5154320987654321,
+                    "x": 0.5291005291005292,
+                    "y": 0.5401234567901234,
                     "uniqueID": 108347,
                     "ioValues": [
                         {
@@ -3357,7 +3357,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 150
+                            "ioValue": 100
                         }
                     ]
                 },
@@ -3598,8 +3598,8 @@
         {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.5998677248677249,
-            "y": 0.8209876543209876,
+            "x": 0.6005291005291005,
+            "y": 0.8549382716049383,
             "uniqueID": 421665,
             "ioValues": [
                 {
