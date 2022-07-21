@@ -3661,11 +3661,11 @@
                         },
                         {
                             "name": "Rectangle height",
-                            "ioValue": 28
+                            "ioValue": 38
                         },
                         {
                             "name": "Rectangle width",
-                            "ioValue": 50
+                            "ioValue": 60
                         }
                     ],
                     "simplify": false
