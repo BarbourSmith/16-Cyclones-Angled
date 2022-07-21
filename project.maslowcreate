@@ -240,8 +240,8 @@
         {
             "atomType": "Molecule",
             "name": "15 Angled Cyclones",
-            "x": 0.36243386243386244,
-            "y": 0.45987654320987653,
+            "x": 0.30290456431535273,
+            "y": 0.3765432098765432,
             "uniqueID": 190029,
             "ioValues": [],
             "topLevel": false,
@@ -3624,8 +3624,8 @@
         {
             "atomType": "Molecule",
             "name": "Collection Funnel",
-            "x": 0.3597883597883598,
-            "y": 0.6604938271604939,
+            "x": 0.35435684647302906,
+            "y": 0.6481481481481481,
             "uniqueID": 211705,
             "ioValues": [],
             "topLevel": false,
@@ -3705,6 +3705,42 @@
             "unitsIndex": 0
         },
         {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.7344398340248963,
+            "y": 0.31790123456790126,
+            "uniqueID": 421665,
+            "ioValues": [
+                {
+                    "name": "Input1",
+                    "ioValue": "source/225197/190029Molecule"
+                },
+                {
+                    "name": "Input2",
+                    "ioValue": "source/225197/211705Molecule"
+                },
+                {
+                    "name": "Input3",
+                    "ioValue": "source/225197/636329Difference"
+                }
+            ],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n//Inputs:[Input1, Input2, Input3];\n\n\nreturn Group(Input1, Input2, Input3);"
+        },
+        {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.5800829875518672,
+            "y": 0.5802469135802469,
+            "uniqueID": 906353,
+            "ioValues": [
+                {
+                    "name": "Input1",
+                    "ioValue": "source/225197/190029Molecule"
+                }
+            ],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n//Inputs:[Input1];\n\n\nreturn Input1.wrap(16, .1);"
+        },
+        {
             "atomType": "Move",
             "name": "Move",
             "x": 0.2328042328042328,
@@ -3730,36 +3766,110 @@
             ]
         },
         {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.5727513227513228,
-            "y": 0.6018518518518519,
-            "uniqueID": 421665,
+            "atomType": "GitHubMolecule",
+            "name": "Section View",
+            "x": 0.8423236514522822,
+            "y": 0.28703703703703703,
+            "uniqueID": 839935,
+            "projectID": "516094200",
             "ioValues": [
                 {
-                    "name": "Input1",
+                    "name": "Offset",
+                    "ioValue": 0
+                }
+            ],
+            "simplify": false
+        },
+        {
+            "atomType": "ShrinkWrap",
+            "name": "Shrink Wrap",
+            "x": 0.34439834024896265,
+            "y": 0.8456790123456789,
+            "uniqueID": 620399,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
                     "ioValue": "source/225197/190029Molecule"
                 },
                 {
-                    "name": "Input2",
-                    "ioValue": "source/225197/211705Molecule"
+                    "name": "3D shape 2",
+                    "ioValue": ""
+                },
+                {
+                    "name": "3D shape 1",
+                    "ioValue": "source/225197/190029Molecule"
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": ""
                 }
             ],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n//Inputs:[Input1, Input2];\n\n\nreturn Group(Input1, Input2);"
+            "closedSelection": 0
         },
         {
-            "atomType": "Code",
-            "name": "Code",
-            "x": 0.5659751037344398,
-            "y": 0.7777777777777777,
-            "uniqueID": 906353,
+            "atomType": "GitHubMolecule",
+            "name": "Rounded Rectangle",
+            "x": 0.5170124481327801,
+            "y": 0.7962962962962963,
+            "uniqueID": 956286,
+            "projectID": "509906083",
             "ioValues": [
                 {
-                    "name": "Input1",
-                    "ioValue": "source/225197/190029Molecule"
+                    "name": "corner diameter",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Rectangle height",
+                    "ioValue": 110
+                },
+                {
+                    "name": "Rectangle width",
+                    "ioValue": 170
                 }
             ],
-            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n//Inputs:[Input1, Input2];\n\n\nreturn Input1.wrap(1, 1);"
+            "simplify": false
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.7120331950207469,
+            "y": 0.6512345679012346,
+            "uniqueID": 636329,
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": "source/225197/906353Code"
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": "source/225197/187366Extrude"
+                }
+            ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.6049792531120332,
+            "y": 0.8209876543209876,
+            "uniqueID": 993912,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/225197/956286GitHubMolecule"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 70
+                }
+            ]
         },
         {
             "atomType": "Output",
@@ -3773,6 +3883,37 @@
                     "ioValue": "source/225197/190029Molecule"
                 }
             ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.678838174273859,
+            "y": 0.882716049382716,
+            "uniqueID": 187366,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/225197/993912Move"
+                },
+                {
+                    "name": "height",
+                    "ioValue": 50
+                }
+            ]
+        },
+        {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.8121693121693121,
+            "y": 0.7808641975308642,
+            "uniqueID": 293195,
+            "ioValues": [
+                {
+                    "name": "Input1",
+                    "ioValue": "source/225197/636329Difference"
+                }
+            ],
+            "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n//Inputs:[Input1, Input2];\n\n\nreturn Input1.grow(-2);"
         }
     ],
     "allConnectors": [
@@ -3799,6 +3940,13 @@
         },
         {
             "ap1Name": "Geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 190029,
+            "ap2ID": 620399
+        },
+        {
+            "ap1Name": "Geometry",
             "ap2Name": "Input1",
             "ap2Primary": false,
             "ap1ID": 190029,
@@ -3817,6 +3965,55 @@
             "ap2Primary": false,
             "ap1ID": 211705,
             "ap2ID": 421665
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape",
+            "ap2Primary": false,
+            "ap1ID": 421665,
+            "ap2ID": 839935
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 906353,
+            "ap2ID": 636329
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 956286,
+            "ap2ID": 993912
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Input3",
+            "ap2Primary": false,
+            "ap1ID": 636329,
+            "ap2ID": 421665
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Input1",
+            "ap2Primary": false,
+            "ap1ID": 636329,
+            "ap2ID": 293195
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 993912,
+            "ap2ID": 187366
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 187366,
+            "ap2ID": 636329
         }
     ],
     "fileTypeVersion": 1,
