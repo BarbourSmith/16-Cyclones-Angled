@@ -258,9 +258,9 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.2222222222222222,
-                            "y": 0.14506172839506173,
-                            "uniqueID": 199439,
+                            "x": 0.2043650793650794,
+                            "y": 0.19444444444444442,
+                            "uniqueID": 234220,
                             "ioValues": [
                                 {
                                     "name": "geometry",
@@ -268,7 +268,7 @@
                                 },
                                 {
                                     "name": "x-axis degrees",
-                                    "ioValue": 15
+                                    "ioValue": 0
                                 },
                                 {
                                     "name": "y-axis degrees",
@@ -276,32 +276,7 @@
                                 },
                                 {
                                     "name": "z-axis degrees",
-                                    "ioValue": 0
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Move",
-                            "name": "Move",
-                            "x": 0.14682539682539683,
-                            "y": 0.25308641975308643,
-                            "uniqueID": 142528,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": "source/225197/190029/579706/483912GitHubMolecule"
-                                },
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": 95
+                                    "ioValue": 20
                                 }
                             ]
                         },
@@ -355,6 +330,56 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
+                            "x": 0.13690476190476192,
+                            "y": 0.2839506172839506,
+                            "uniqueID": 142528,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "source/225197/190029/579706/483912GitHubMolecule"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 95
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.27645502645502645,
+                            "y": 0.1574074074074074,
+                            "uniqueID": 199439,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "source/225197/190029/579706/234220Rotate"
+                                },
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 15
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": 0
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
                             "x": 0.3386243386243386,
                             "y": 0.15432098765432098,
                             "uniqueID": 823188,
@@ -380,13 +405,13 @@
                         {
                             "atomType": "ExtractTag",
                             "name": "Extract Tag",
-                            "x": 0.1832010582010582,
-                            "y": 0.38580246913580246,
-                            "uniqueID": 421040,
+                            "x": 0.3597883597883598,
+                            "y": 0.2808641975308642,
+                            "uniqueID": 602918,
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "source/225197/190029/579706/142528Move"
+                                    "ioValue": "source/225197/190029/579706/823188Move"
                                 },
                                 {
                                     "name": "tag",
@@ -397,13 +422,13 @@
                         {
                             "atomType": "ExtractTag",
                             "name": "Extract Tag",
-                            "x": 0.3597883597883598,
-                            "y": 0.2808641975308642,
-                            "uniqueID": 602918,
+                            "x": 0.25462962962962965,
+                            "y": 0.4166666666666667,
+                            "uniqueID": 421040,
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "source/225197/190029/579706/823188Move"
+                                    "ioValue": "source/225197/190029/579706/142528Move"
                                 },
                                 {
                                     "name": "tag",
@@ -522,15 +547,40 @@
                             "simplify": false
                         },
                         {
-                            "atomType": "Move",
-                            "name": "Move",
-                            "x": 0.17592592592592593,
-                            "y": 0.7067901234567902,
-                            "uniqueID": 844843,
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.15277777777777776,
+                            "y": 0.6882716049382717,
+                            "uniqueID": 201619,
                             "ioValues": [
                                 {
                                     "name": "geometry",
                                     "ioValue": "source/225197/190029/579706/609108GitHubMolecule"
+                                },
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": -20
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.2208994708994709,
+                            "y": 0.7037037037037037,
+                            "uniqueID": 844843,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "source/225197/190029/579706/201619Rotate"
                                 },
                                 {
                                     "name": "xDist",
@@ -685,15 +735,15 @@
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
-                            "ap1ID": 199439,
-                            "ap2ID": 823188
+                            "ap1ID": 234220,
+                            "ap2ID": 199439
                         },
                         {
-                            "ap1Name": "geometry",
+                            "ap1Name": "Geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
-                            "ap1ID": 142528,
-                            "ap2ID": 199439
+                            "ap1ID": 483912,
+                            "ap2ID": 142528
                         },
                         {
                             "ap1Name": "geometry",
@@ -710,11 +760,18 @@
                             "ap2ID": 421040
                         },
                         {
-                            "ap1Name": "Geometry",
+                            "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
-                            "ap1ID": 483912,
-                            "ap2ID": 142528
+                            "ap1ID": 142528,
+                            "ap2ID": 234220
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 199439,
+                            "ap2ID": 823188
                         },
                         {
                             "ap1Name": "geometry",
@@ -732,16 +789,16 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "3D shape 3",
+                            "ap2Name": "3D shape 2",
                             "ap2Primary": false,
-                            "ap1ID": 421040,
+                            "ap1ID": 602918,
                             "ap2ID": 419991
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "3D shape 2",
+                            "ap2Name": "3D shape 3",
                             "ap2Primary": false,
-                            "ap1ID": 602918,
+                            "ap1ID": 421040,
                             "ap2ID": 419991
                         },
                         {
@@ -777,6 +834,13 @@
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": 609108,
+                            "ap2ID": 201619
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 201619,
                             "ap2ID": 844843
                         },
                         {
